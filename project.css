@@ -1,0 +1,299 @@
+
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .child2 p{
+            margin-top: -4px;
+        }
+        
+
+        .Home{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .child{
+            display: flex;
+            justify-content: space-around;
+            margin-top: -530px;
+        }
+        .child1{
+            display: flex;
+            color: black;
+            margin-left: 30px;
+            padding: 4px;
+        }
+        .child1 img{
+            width: 30px;
+            height: 30px;
+            margin-top: 30px;
+        }
+        .child2{
+            display: flex;
+            padding: 2px;
+            gap: 40px;
+            color:black;
+            margin-top: 45px;
+        }
+        
+        nav a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            display: inline-block;
+            padding: 10px;
+            margin-top: -15px;
+        }
+        nav a:hover{
+            background-color: orange;
+        }
+        .intro{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: -20px;
+        }
+        .introsub{
+            display: flex;
+            gap: 20px;
+        }
+        .intro2{
+            margin-top: 120px;
+        }
+        
+        .Review {
+            height: 100px;
+            width: 100%;
+            background-color: orange;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: -138px;
+            
+            
+        }
+        .profile{
+            display: flex;
+            
+            
+            
+        }
+        .profile1 img,.profile2 img,.profile3 img,.profile4 img{
+            height: 30px;
+            width: 30px;
+            border: 2px solid white;
+            border-radius: 100%;
+            margin-top: 45px;
+            margin-left: 90%;
+
+            
+        }
+        .rating{
+           display: flex;
+           justify-content: center;
+
+        }
+        .rating span{
+            margin-top: 50px;
+            margin-left: 60px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .rating img{
+            margin-top: -45px;
+        }
+        
+        .TheBook{
+            display: flex;
+           justify-content:center;
+            align-items: center;
+            gap: 90px;
+            margin-top: 150px;
+             width: 100%; 
+        } 
+       
+            
+         .about{
+            width: 45%;
+            margin-right: -120px;
+        } 
+         .glance{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: -650px;
+        }
+         .glance h1{
+            margin-top: 0px;
+         }
+         .Intro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin-top: 5px;
+            width: 100%;
+         }
+         .box{
+            height: 355px;
+            width: 300px;
+            border: 2px solid orange;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            /* width: 33.3%; */
+
+         }
+         .boxes{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            
+            
+         }
+         .quote {
+            padding: 4px;
+            background-color:whitesmoke;
+            border-radius: 10px;
+            
+            justify-content: space-around;
+            align-items: center;
+            
+         }
+         .quote img{
+            justify-content: space-around;
+            align-items: center;
+            height:30px;
+            width:30px;
+            text-align: center;
+            
+         }
+         
+         .Author{
+            display: flex;
+            margin-top: 50px;
+            gap: 100px;
+            align-items: center;
+            justify-content: space-around;
+            
+         }
+         .sophia{
+            margin-right:200px ;
+         }
+         .pic1{
+            height: 400px;
+            width: 400px;
+        }
+        .pic2{
+            height: 300px;
+            width: 300px;
+            margin-left: -70px;
+            border-radius: 100%;
+            border: 5px solid orange;
+        }
+        .Reviews{
+            justify-content:space-around ;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .Reviews_1{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+           
+        }
+        .icon1,.icon2,.icon3{
+            display: flex;
+            flex-direction: column;
+            height: 420px;
+            width: 300px;
+            border-right: 10px;
+            background-color: whitesmoke;
+            align-items: center;
+            border-radius: 10px;
+            width: 28%;
+            background-image:url(./images/businessman-sitting-by-table-cafe.jpg);
+            background-size: cover;
+             
+        }
+        
+        
+        .icon1-1 ,.icon2-1 ,.icon3-1 {
+            background-color: brown;
+            border-radius: 10px;
+            height: 150px;
+            width: 150px;
+            align-items: center;
+            justify-content: center;
+
+            color: white;
+            margin-top: 12px;
+            text-align: center;
+        }
+        
+        
+        .icon1,.icon2,.icon3 span{
+            margin-top: 10px;
+        }
+        .artist1 ,.artist2,.artist3{
+            display: flex;
+        }
+        .Contact{
+            display: flex;
+           align-items: center;
+            justify-content: center;
+            width: 100%;   
+            height: 400px;
+            background-color: orange;
+            gap: 200px;
+            margin-top: 65px;
+        }
+        .contact-left{
+            height: 300px;
+            width: 280px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .content-left p{
+            display: inline;
+
+        }
+        .location{
+            display: flex;
+            gap: 5px;
+
+        }
+        .location p{
+            margin-top: -2px;
+            
+        }
+          
+            
+        
+        .logos{
+            display: flex;
+            gap: 10px;
+        }
+        
+
+
+        
+        
+            
+        
+
+
+    
